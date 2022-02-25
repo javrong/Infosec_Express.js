@@ -1,0 +1,10 @@
+version '3'
+
+services:
+    web:
+        build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: DeployNodeJS
+    ports:
+        - '700:8000'
